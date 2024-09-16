@@ -1,0 +1,42 @@
+header {
+    background: #333;
+    color: white;
+    padding: 10px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  nav a.active {
+    font-weight: bold;
+    border-bottom: 2px solid white;
+  }
+  
+  section {
+    padding: 20px;
+    margin: 10px 0;
+  }
+  
+  footer {
+    background: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
