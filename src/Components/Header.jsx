@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Header = ({ currentSection, setCurrentSection }) => {
   return (
     <header>
-      <h1>Your Name</h1>
+      <h1>Samuel Pedroza</h1>
       <nav>
         <ul>
           <li>

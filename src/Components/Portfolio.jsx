@@ -1,8 +1,8 @@
 import React from 'react';
 
 const projects = [
-  { title: 'Project 1', image: 'project1.jpg', deployedUrl: '#', repoUrl: '#' },
-  { title: 'Project 2', image: 'project2.jpg', deployedUrl: '#', repoUrl: '#' },
+  { title: 'Placeholder', image: 'placeholder', deployedUrl: '#', repoUrl: '#' },
+  { title: 'Placeholder', image: 'placeholder', deployedUrl: '#', repoUrl: '#' },
   // Add more projects as needed
 ];
 
