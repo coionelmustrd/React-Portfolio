@@ -1,7 +1,13 @@
 {
   "dependencies": {
     "react-router-dom": "^6.26.2",
-    "react-scroll": "^1.9.0"
-    
-  }
+    "react-scroll": "^1.9.0",
+  },
+  "scripts": {
+    "start": "node server --ignore client",
+    "develop": "concurrently \"cd server && npm run start\" \"cd client && npm run dev\"",
+    "install": "cd server && npm i && cd ../client && npm i",
+    "seed": "cd server && npm run seed",
+    "build": "cd client && npm run build"
+    }
 }
